@@ -21,6 +21,4 @@
 
 [![Dracula PRO](./.github/dracula-pro.png)](https://draculatheme.com/pro)
 
-## License
 
-[MIT License](./LICENSE)
