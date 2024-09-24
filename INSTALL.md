@@ -3,7 +3,7 @@
 #### Install using Chrome Web Store
 
 1. [Chrome Web Store Extension Link](https://chromewebstore.google.com/detail/chatgpt-dracula-custom-th/ocmahjmcabkidkpmfhdiipnaajlmkfba) - Directly add to Chrome
-2. Search the extension "**ChatGPT Dracula Custom Theme**" at the Chrome Web Store and add it to Chrome
+2. Search the extension "**ChatGPT Dracula Custom Theme**" and add it to Chrome
 
 #### Removing the theme
 
