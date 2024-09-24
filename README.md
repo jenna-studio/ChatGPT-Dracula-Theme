@@ -6,15 +6,9 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/chatgpt](https://draculatheme.com/chatgpt).
+### Chrome Web Store
 
-## Team
-
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/chatgpt/graphs/contributors).
-
-| [![Your Name](https://github.com/yourusername.png?size=100)](https://github.com/yourusername) |
-| --------------------------------------------------------------------------------------------- |
-| [Your Name](https://github.com/yourusername)                                                  |
+[ChatGPT Dracula Theme Chrome Extension](https://chromewebstore.google.com/detail/chatgpt-dracula-custom-th/ocmahjmcabkidkpmfhdiipnaajlmkfba)
 
 ## Community
 
