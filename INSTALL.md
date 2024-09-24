@@ -1,19 +1,10 @@
-### [Foobar](https://foobar.com)
+### [ChatGPT Dracula Theme](https://chromewebstore.google.com/detail/chatgpt-dracula-custom-th/ocmahjmcabkidkpmfhdiipnaajlmkfba)
 
-#### Install using Git
+#### Install using Chrome Web Store
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+1. [Chrome Web Store Extension Link](https://chromewebstore.google.com/detail/chatgpt-dracula-custom-th/ocmahjmcabkidkpmfhdiipnaajlmkfba) - Directly add to Chrome
+2. Search the extension "**ChatGPT Dracula Custom Theme**" at the Chrome Web Store and add it to Chrome
 
-```bash
-git clone https://github.com/dracula/foobar.git
-```
+#### Removing the theme
 
-#### Install manually
-
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
-
-#### Activating theme
-
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+Go back to [here](https://chromewebstore.google.com/detail/chatgpt-dracula-custom-th/ocmahjmcabkidkpmfhdiipnaajlmkfba)(the extension page) and click "**Remove from Chrome**".
