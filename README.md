@@ -2,8 +2,8 @@
 
 > A dark theme for [ChatGPT](https://chat.openai.com/).
 
-![Screenshot](./screenshot.png)
-![Preview](./preview.gif)
+![Screenshot1](./screenshot_1.png)
+![Screenshot2](./screenshot_2.png)
 
 ## Install
 
