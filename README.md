@@ -3,10 +3,11 @@
 > A dark theme for [ChatGPT](https://chat.openai.com/).
 
 ![Screenshot](./screenshot.png)
+![Preview](./preview.gif)
 
 ## Install
 
-### Chrome Web Store
+**Chrome Web Store** - Extension
 
 [ChatGPT Dracula Theme Chrome Extension](https://chromewebstore.google.com/detail/chatgpt-dracula-custom-th/ocmahjmcabkidkpmfhdiipnaajlmkfba)
 
