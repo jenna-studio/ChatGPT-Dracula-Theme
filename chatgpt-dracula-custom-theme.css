@@ -1,0 +1,322 @@
+:root {
+    --color-background: #1b1c22;
+    --color-foreground: #f8f8f2;
+    --color-surface-primary: #171717;
+    --color-surface-secondary: #44475a;
+    --color-surface-dark: #282a36;
+    --color-placeholder: #6272a4;
+
+    --color-h1: #ff79c6;
+    --color-h2: #bd93f9;
+    --color-h3: #62e2ff;
+    --color-h4: #50fa7b;
+    --color-h5: #f1fa8c;
+    --color-h6: #ffb86c;
+
+    --color-strong: #fca8d8;
+    --color-italic: #ffb86c;
+
+    --color-link: #f1fa8c;
+    --color-link-hover: #bd93f9;
+    --color-button-hover-gradient: linear-gradient(120deg, #2acb53, #3496c3, #9163d1);
+
+    --color-code-block-bg: #44475a;
+    --color-code-bg: #282a36;
+    --color-code: #50fa7b;
+    --color-code-title: #62e2ff;
+    --color-code-keyword: #ff79c6;
+    --color-code-title-bold: #50fa7b;
+    --color-code-string: #50fa7b;
+    --color-code-meta: hsla(0, 0%, 100%, 0.6);
+    --color-code-name: #62e2ff;
+    --color-code-type: #50fa7b;
+    --color-code-attr: #f1fa8c;
+    --color-code-symbol: #ffb86c;
+    --color-code-bullet: #ff79c6;
+    --color-code-addition: #bd93f9;
+    --color-code-regexp: #f1fa8c;
+    --color-code-comment: #6272a4;
+    --color-code-literal: #bd93f9;
+    --color-code-variable: #f8f8f2;
+}
+
+body {
+    background-color: var(--color-background) !important;
+    color: var(--color-foreground);
+}
+
+.bg-token-main-surface-primary,
+.navbar,
+.menu {
+    background-color: var(--color-surface-primary);
+    color: var(--color-foreground);
+}
+
+h1 {
+    color: var(--color-h1) !important;
+}
+h2 {
+    color: var(--color-h2) !important;
+}
+h3 {
+    color: var(--color-h3) !important;
+}
+h4 {
+    color: var(--color-h4) !important;
+}
+h5 {
+    color: var(--color-h5) !important;
+}
+h6 {
+    color: var(--color-h6) !important;
+}
+
+strong {
+    color: var(--color-strong) !important;
+}
+italic {
+    color: var(--color-italic) !important;
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
+
+textarea#prompt-textarea {
+    background: var(--color-surface-primary);
+    color: white;
+    outline: 3px solid #49526d;
+    border-radius: 8px;
+    border: 2px solid transparent !important;
+}
+
+textarea#prompt-textarea:focus {
+    color: #afcbf9;
+    outline: 4px solid #4c546a;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--color-placeholder);
+}
+
+button,
+.button {
+    background-color: var(--color-surface-dark);
+    color: var(--color-foreground);
+    border: none;
+    padding: 5px 10px !important;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+    cursor: pointer !important;
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button svg {
+    vertical-align: middle;
+}
+
+button:hover,
+.button:hover {
+    background: var(--color-button-hover-gradient) !important;
+}
+
+code,
+p > code {
+    color: var(--color-code) !important;
+    background: var(--color-code-bg);
+    padding: 1px;
+    border: none;
+    border-radius: 4px;
+}
+
+pre {
+    background: var(--color-code-bg);
+    color: var(--color-foreground);
+    margin: 15px auto !important;
+    padding: 0.5em;
+    overflow-x: auto;
+}
+
+.hljs {
+    background-color: var(--color-code-bg);
+    color: var(--color-foreground);
+}
+
+.hljs-keyword,
+.hljs-built_in,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-link {
+    color: var(--color-code-keyword) !important;
+    font-weight: bold;
+}
+
+.hljs-title {
+    color: var(--color-code-title-bold) !important;
+    font-weight: bold;
+}
+.hljs-string {
+    color: var(--color-code-string) !important;
+}
+.hljs-meta {
+    color: var(--color-code-meta) !important;
+}
+.hljs-name {
+    color: var(--color-code-name) !important;
+}
+.hljs-type {
+    color: var(--color-code-type) !important;
+}
+.hljs-attr {
+    color: var(--color-code-attr) !important;
+}
+.hljs-symbol {
+    color: var(--color-code-symbol) !important;
+}
+.hljs-bullet {
+    color: var(--color-code-bullet) !important;
+}
+.hljs-addition {
+    color: var(--color-code-addition) !important;
+}
+.hljs-template-tag,
+.hljs-template-variable {
+    color: var(--color-code-title) !important;
+}
+.hljs-variable {
+    color: var(--color-code-variable) !important;
+}
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion {
+    color: var(--color-code-comment) !important;
+}
+.hljs-literal,
+.hljs-number {
+    color: var(--color-code-literal) !important;
+    font-weight: bold;
+}
+.hljs-regexp {
+    color: var(--color-code-regexp) !important;
+}
+
+pre {
+    background: none;
+    color: var(--color-foreground);
+    margin: 15px auto !important;
+    padding: 0.5em;
+    overflow-x: auto;
+}
+
+/* Syntax colors */
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: var(--dracula-comment);
+}
+
+.token.punctuation {
+    color: var(--dracula-fg);
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: var(--dracula-orange);
+}
+
+.token.boolean,
+.token.number {
+    color: var(--dracula-purple);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: var(--dracula-green);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+    color: var(--dracula-cyan);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: var(--dracula-pink);
+    font-weight: bold;
+}
+
+.token.function,
+.token.class-name {
+    color: var(--dracula-yellow);
+}
+
+.token.regex,
+.token.important {
+    color: var(--dracula-red);
+}
+
+/* Highlight.js fallback */
+.hljs-comment,
+.hljs-quote {
+    color: var(--dracula-comment);
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+    color: var(--dracula-pink);
+    font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet {
+    color: var(--dracula-purple);
+}
+
+.hljs-string,
+.hljs-doctag,
+.hljs-addition {
+    color: var(--dracula-green);
+}
+
+.hljs-title,
+.hljs-section {
+    color: var(--dracula-yellow);
+}
+
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+    color: var(--dracula-orange);
+}
+
+.hljs-attribute,
+.hljs-code,
+.hljs-class .hljs-title {
+    color: var(--dracula-cyan);
+}
